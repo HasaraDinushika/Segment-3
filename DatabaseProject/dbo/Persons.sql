@@ -2,7 +2,7 @@
 	 ID INT IDENTITY NOT NULL,
 	 Lastname VARCHAR(50) NULL,
 	 Firstname VARCHAR(50) NULL,
-	 Gender CHAR(1) NULL CHECK (GENDER='M' OR GENDER='F'),
+	 Gender CHAR(1) NULL CHECK (Gender='M' OR Gender='F'),
 	 DateOfBirth DATE NULL ,
 	 CONSTRAINT PK_Persons PRIMARY KEY CLUSTERED(ID)
 );
